@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Writing, Yashraj S. Jakhar</title>
+<meta name="description" content="A policy report on California's SB 53, a working paper on two ID-number tests, an article in progress on test-aware models and safe harbors, and two columns.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="index.html">Yashraj S. Jakhar</a>
+    <nav class="nav">
+      <a href="experiments.html">Experiments</a>
+      <a href="writing.html">Writing</a>
+      <a href="press.html">Press</a>
+      <a href="about.html">About</a>
+      <a href="mailto:yashraj@berkeley.edu">Email</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="layout">
+
+    <div class="essay">
+      <section class="hero" id="writing" data-panel="writing">
+        <div class="kicker">WRITING · 2025 TO 2026</div>
+        <h1>Writing</h1>
+        <p class="byline">A policy report, a working paper, an article in progress, and two columns.</p>
+        <div class="chips" id="writing-filter">
+          <button class="chip" aria-pressed="true" data-kind="all">All</button>
+          <button class="chip" aria-pressed="false" data-kind="ai">AI governance</button>
+          <button class="chip" aria-pressed="false" data-kind="column">Columns</button>
+        </div>
+        <div class="item" data-kind="ai">
+          <div class="meta">POLICY REPORT · SSRN · SEPTEMBER 2026</div>
+          <h3><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7474719">Strengthening California's Generative AI Regulation: A Policy Report on Improving SB 53</a></h3>
+          <p>With Brian Darmitzel and Boonyawee Chaiyaput. California's frontier AI transparency law leans on developers' own disclosures, draws its lines at fixed compute and revenue thresholds, and enforces weakly. We propose a wider scope, an independent AI safety commission and stronger enforcement. Presented at the CITRIS Policy Lab, Berkeley, December 2025, to an audience that included California legislators.</p>
+        </div>
+        <div class="item" data-kind="ai">
+          <div class="meta">WORKING PAPER · DRAFT · NOVEMBER 2026</div>
+          <h3><a href="guardrail-that-bends.html">The Guardrail That Bends: Frontier AI and Other People's ID Numbers</a></h3>
+          <p>Do AI models guard a US Social Security number more carefully than India's Aadhaar number or its tax number, the PAN? Two small tests on four frontier models from Anthropic, OpenAI and Google, with their rules fixed in advance. The notes link to the exact lines in the two public test repositories.</p>
+        </div>
+        <div class="item" data-kind="ai">
+          <div class="meta">ARTICLE IN PROGRESS</div>
+          <h3>Test-Aware Models, the Measured Gap, and Safe Harbors That Reward a Test the Model Can Game</h3>
+          <p>Frontier models can often tell when they are being tested, and some then behave differently. So what is a clean safety test worth, in negligence law, when the model may have spotted it? The article argues that the testing-based safe harbors now proposed reward exactly the test a model can game, and proposes a harbor earned by measuring and reporting the gap between tested and real behaviour, and lost for hiding it.</p>
+        </div>
+        <div class="item" data-kind="column">
+          <div class="meta">COLUMN · DECCAN HERALD · 28 SEPTEMBER 2026</div>
+          <h3><a href="https://www.deccanherald.com/opinion/tulu-gets-a-boost-in-karnataka-why-the-state-now-needs-a-language-test-4161845">Tulu gets a boost in Karnataka: why the State now needs a language test</a></h3>
+          <p>On what official-language status should mean in practice. The print version is on the <a href="press.html">press page</a>.</p>
+        </div>
+        <div class="item" data-kind="column">
+          <div class="meta">COLUMN · LIVELAW · 3 OCTOBER 2026</div>
+          <h3><a href="https://www.livelaw.in/articles/missing-deadline-behind-punjab-chief-justice-dispute-552787">Missing Deadline Behind Punjab's Chief Justice Dispute</a></h3>
+          <p>On the gap in the rules for appointing High Court Chief Justices.</p>
+        </div>
+      </section>
+    </div>
+
+    <aside class="aside" aria-label="At a glance">
+      <div class="panel" id="panel">
+        <span class="badge" id="panel-badge">WRITING · 2025 TO 2026</span>
+        <div data-state="writing" class="on">
+          <ul class="plist">
+            <li>1 policy report (SB 53), SSRN, 3 authors</li>
+            <li>1 working paper (the two ID-number tests)</li>
+            <li>1 article in progress (test-aware models)</li>
+            <li>2 columns (Deccan Herald, LiveLaw)</li>
+            <li>2 open experiments, repositories public</li>
+          </ul>
+          <div class="pnote">Report presented at Berkeley, 8 Dec 2025, with California legislators in the audience.</div>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Yashraj S. Jakhar, 2026. Corrections welcome.</span>
+    <span><a href="index.html">Home</a> · <a href="https://github.com/Yashraj-Singh-Jakhar">GitHub</a> · <a href="https://www.linkedin.com/in/yashrajjakhar">LinkedIn</a></span>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
