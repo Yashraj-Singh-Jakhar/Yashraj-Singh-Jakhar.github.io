@@ -56,7 +56,7 @@
       var narrow = function () { return window.innerWidth <= 900; };
       window.addEventListener('scroll', function () { if (!narrow() && !ticking) { ticking = true; window.requestAnimationFrame(pick); } }, { passive: true });
       window.addEventListener('resize', function () { if (!narrow()) pick(); });
-      if (narrow()) { fillGrid(); } else { pick(); }
+      if (narrow()) { fillGrid();  if (badge && document.getElementById('dotgrid')) badge.textContent = 'EXPERIMENTS 1 AND 2 · OCT 2026'; } else { pick(); }
     }
   }
 
